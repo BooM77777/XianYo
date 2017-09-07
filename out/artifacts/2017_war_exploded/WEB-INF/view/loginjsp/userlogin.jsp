@@ -27,7 +27,9 @@
     <input type="submit" value="注册"><br/>
 </form>
 
-<form action="findpassword" method="post"/>
+<form action="user.findpassword" method="post">
+    <input type="submit" value="找回密码"><br/>
+</form>
 
 ${registerMessage}
 
