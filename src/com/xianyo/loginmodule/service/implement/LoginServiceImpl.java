@@ -16,7 +16,7 @@ import java.util.regex.Pattern;
  * 实现用户登录的操作
  */
 @Service
-public class LoginServiceImplement
+public class LoginServiceImpl
         implements LoginService {
     @Autowired
     UserDataMapper userDataMapper;
@@ -77,8 +77,6 @@ public class LoginServiceImplement
         //判断是否查找到了唯一一个账户
         // 如果是，返回
         // 如果不是，返回空
-
-        System.out.println(users.size());
         if (users.size() == 1)
             return users.get(0);
         else

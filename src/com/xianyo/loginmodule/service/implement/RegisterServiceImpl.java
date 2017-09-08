@@ -8,11 +8,10 @@ import com.xianyo.util.service.PostmanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
-import java.util.LongSummaryStatistics;
 import java.util.Random;
 
 @Service
-public class RegisterServiceImplement implements RegisterService {
+public class RegisterServiceImpl implements RegisterService {
 
     @Autowired
     UserDataMapper userDataMapper;
@@ -35,9 +34,9 @@ public class RegisterServiceImplement implements RegisterService {
     }
 
     /**
-     * 判断用户是否已被注册
+            * 判断用户是否已被注册
      *
-     * @param user 需要查找的用户
+             * @param user 需要查找的用户
      * @return 如果被注册返回false
      * 如果未被注册返回true
      */

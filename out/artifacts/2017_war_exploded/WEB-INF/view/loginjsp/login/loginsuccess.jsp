@@ -12,5 +12,9 @@
 </head>
 <body>
 登陆成功，欢迎${usertype}${user.username}.
+
+<form action="toAnswer.comment">
+    <input type="submit" value="提问评论区"/>
+</form>
 </body>
 </html>

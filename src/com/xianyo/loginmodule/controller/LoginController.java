@@ -30,7 +30,7 @@ public class LoginController {
      * @return 返回跳转的目标地址
      */
     @RequestMapping("/toUser.login")
-    public ModelAndView JumpToUserLogin(HttpServletRequest request) {
+    public ModelAndView JumpToUserLogin(HttpServletRequest request,HttpSession session) {
         Cookie[] cookies = request.getCookies();
         ModelAndView mav = new ModelAndView();
         if (cookies != null) {
@@ -46,11 +46,11 @@ public class LoginController {
             // 如果完整就进行登陆操作
             if (tmpLoginData.getUsername() != null && tmpLoginData.getPassword() != null) {
                 UserData tmpUser = loginService.Login(tmpLoginData);
-                System.out.println(tmpUser==null);
+                System.out.println(tmpUser == null);
 
                 if (tmpUser != null) {
                     //跳转至登陆成功界面
-                    ShowSuccessPage(mav, tmpUser);
+                    ShowSuccessPage(mav, tmpUser, session);
                     return mav;
                 }
             }
@@ -75,9 +75,7 @@ public class LoginController {
         UserData tmpUser = loginService.Login(user);
         if (tmpUser != null) {
             //跳转至登陆成功界面
-            ShowSuccessPage(mav, tmpUser);
-            //将用户名存入会话中表示已经登陆
-            session.setAttribute("username", user.getUsername());
+            ShowSuccessPage(mav, tmpUser,session);
             //创建cookie并写入response
             //将用户名和密码保存在cookie中传出
             //使用cookie的便利也放置手机和邮箱的泄露
@@ -123,8 +121,9 @@ public class LoginController {
      * @param mav     ModelAndView
      * @param tmpUser 用户信息
      */
-    private void ShowSuccessPage(ModelAndView mav, UserData tmpUser) {
+    private void ShowSuccessPage(ModelAndView mav, UserData tmpUser,HttpSession session) {
         mav.setViewName("loginjsp/login/loginsuccess");
+        session.setAttribute("User",tmpUser);
         mav.addObject("usertype", "用户");
         mav.addObject("user", tmpUser);
     }

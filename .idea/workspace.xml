@@ -7,10 +7,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a336cf1d-b660-400e-8263-8972444a6856" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_10_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_MVC_4_3_10_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/controller/CommentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/pojo/CommentData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/CommentService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/implement/CommentServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/WriteComment.jsp" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/controller/FindPasswordController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/service/FindPasswordService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/service/implement/LoginServiceImplement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/view/commentjsp/comment.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/controller/FindPasswordController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/service/FindPasswordService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/service/implement/LoginServiceImplement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/FindPasswordController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/FindPasswordService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/comment.jsp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/microblogmodule/dao/mapper/MicroblogDataMapper.java" afterPath="$PROJECT_DIR$/src/com/xianyo/microblogmodule/dao/mapper/MicroblogDataMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java" afterPath="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/AnswerComment-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/AnswerComment-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/view/loginjsp/login/loginsuccess.jsp" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/view/loginjsp/login/loginsuccess.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/MybatisFile/xml/CommentDataMapper.xml" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImplement.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/Register-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,61 +81,107 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userinfo_" pinned="false" current-in-tab="false">
-        <entry file="das://table:/b95656ec/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.userinfo_">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="userlogin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/userlogin.jsp">
+      <file leaf-file-name="ApplicationContext.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+            <state relative-caret-position="363">
+              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MicroblogDataMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/xianyo/microblogmodule/dao/mapper/MicroblogDataMapper.java">
+      <file leaf-file-name="LoginServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2343">
+              <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentDataMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentDataExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentDataMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+              <folding>
+                <marker date="1504867076810" expanded="true" signature="5549:5670" ph="select from commentinfo_" />
+                <marker date="1504867076810" expanded="true" signature="5950:6025" ph="delete from " />
+                <marker date="1504867076810" expanded="true" signature="6357:6381" ph="delete from " />
+                <marker date="1504867076810" expanded="true" signature="6788:7410" ph="insert into commentinfo_... " />
+                <marker date="1504867076810" expanded="true" signature="10343:10376" ph="select count... commentinfo_" />
+                <marker date="1504867076810" expanded="true" signature="12666:13411" ph="update comme... " />
+                <marker date="1504867076810" expanded="true" signature="13849:15158" ph="update comme... " />
+                <marker date="1504867076810" expanded="true" signature="15484:16134" ph="update comme... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/controller/CommentController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="462">
-              <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/CommentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommentDataMapper.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java">
+      <file leaf-file-name="CommentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/implement/CommentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2211">
-              <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="165">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,38 +189,8 @@
       <file leaf-file-name="AnswerComment-servlet.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Register-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Register-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login-servlet.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/Login-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/commentjsp/comment.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            <state relative-caret-position="330">
+              <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -147,10 +201,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Jsp File" />
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -165,28 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/UserData.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/userlogin.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/loginerror.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginConfig-servlet.xml" />
-        <option value="$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/MybatisTest.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/adminlogin.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserinfoDataExample.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserinfoData.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserinfoDataMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserDataExample.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/user/UserDataExample.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/admin/AdminData.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/loginsuccess.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/register-servlet.xml" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/user/UserData.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/user/LoginData.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserData.java" />
         <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/AdminData.java" />
         <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/LoginData.java" />
         <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImplement.java" />
@@ -196,26 +228,48 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/findpassword/findpassword-0.jsp" />
         <option value="$PROJECT_DIR$/src/com/xianyo/util/Postman.java" />
         <option value="$PROJECT_DIR$/src/com/xianyo/util/PostmanService.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/login-servlet.xml" />
         <option value="$PROJECT_DIR$/src/com/xianyo/util/service/PostmanService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/serviceconf/postmanconf.xml" />
         <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/RegisterService.java" />
         <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/RegisterController.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/userlogin.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/FindPasswordController.java" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/FindPasswordService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/commentjsp.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/comment.jsp" />
-        <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.java" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/userlogin.jsp" />
         <option value="$PROJECT_DIR$/src/com/xianyo/microblogmodule/dao/mapper/MicroblogDataMapper.java" />
         <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/comment.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/dao/CommentData.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/dao/pojo/CommentDataExample.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/dao/mapper/CommentDataExample.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/dao/mapper/CommentDataMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataExample.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/pojo/CommentData.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/usermodule/pojo/UserData.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/usermodule/dao/pojo/UserData.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserData.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/mainmemeryinfo/MainMemeryInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/GlobalVariable/GlobalVariable.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/FindPasswordService.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/FindPasswordController.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/WriteComment.jsp" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/CommentService.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.xml" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/controller/CommentController.java" />
+        <option value="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/implement/CommentServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -241,7 +295,6 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -263,9 +316,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,7 +347,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="microblogmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="loginmodule" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
@@ -305,7 +355,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="microblogmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="loginmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="loginmodule" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -314,7 +373,82 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="microblogmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="loginmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="loginmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="loginmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="travelnotemodule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="commentmodule" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="commentmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="commentmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="commentmodule" type="462c0819:PsiDirectoryNode" />
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="mapper" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -324,7 +458,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="questionmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="commentmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
@@ -332,47 +468,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="questionmodule" type="462c0819:PsiDirectoryNode" />
-              <item name="answercomponent" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="commentmodule" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="implement" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
               <item name="XianYo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="questionmodule" type="462c0819:PsiDirectoryNode" />
-              <item name="answercomponent" type="462c0819:PsiDirectoryNode" />
-              <item name="answerpart" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
               <item name="XianYo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="questionmodule" type="462c0819:PsiDirectoryNode" />
-              <item name="answercomponent" type="462c0819:PsiDirectoryNode" />
-              <item name="answerpart" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
               <item name="XianYo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="xianyo" type="462c0819:PsiDirectoryNode" />
-              <item name="questionmodule" type="462c0819:PsiDirectoryNode" />
-              <item name="answercomponent" type="462c0819:PsiDirectoryNode" />
-              <item name="answerpart" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="XianYo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="XianYo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="commentjsp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,19 +521,19 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\microblogmodule\dao\mapper" />
-      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\questionmodule\answercomponent\answerpart\dao\mapper" />
-      <recent name="E:\WorkSpace\JAVA web\XianYo\web\WEB-INF\view\commentjsp" />
-      <recent name="E:\WorkSpace\JAVA web\XianYo\web\WEB-INF\view\loginjsp\login" />
-      <recent name="E:\WorkSpace\JAVA web\XianYo\web\WEB-INF" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\questionmodule\answercomponent\commentpart\dao" />
       <recent name="E:\WorkSpace\JAVA web\XianYo\lib" />
       <recent name="E:\WorkSpace\JAVA web\实训2017\web\WEB-INF\view" />
       <recent name="E:\WorkSpace\实训2017\web\WEB-INF\view" />
       <recent name="E:\WorkSpace\实训2017\src\com\xianyo\customerservicecontactmodule" />
-      <recent name="E:\WorkSpace\实训2017\src\com\xianyo\reportmodule" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\util\usermodule\mapper" />
+      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\travelnotemodule" />
+      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\util\commentmodule\dao\mapper" />
+      <recent name="E:\WorkSpace\JAVA web\XianYo\src\com\xianyo\questionmodule\answercomponent\commentpart\dao\mapper" />
+      <recent name="E:\WorkSpace\JAVA web\XianYo\web\WEB-INF\view\commentjsp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -598,11 +732,16 @@
       <workItem from="1504786712326" duration="275000" />
       <workItem from="1504795214763" duration="4884000" />
       <workItem from="1504832367938" duration="5208000" />
+      <workItem from="1504837703601" duration="16415000" />
+      <workItem from="1504863861639" duration="65000" />
+      <workItem from="1504864309254" duration="1791000" />
+      <workItem from="1504866212650" duration="1025000" />
+      <workItem from="1504867494390" duration="35000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58930000" />
+    <option name="totallyTimeSpent" value="78261000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -615,36 +754,37 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.50852877" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10394456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24948876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14254625" sideWeight="0.4936034" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.510661" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9695321" sideWeight="0.48933902" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20628998" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21695095" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10394456" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24948876" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14254625" sideWeight="0.4936034" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -693,22 +833,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginConfig-servlet.xml" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$2/MybatisTest.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$3/CategoryController.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/360zip$Temp/360$4/CategoryServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginsuccess.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/userlogin.jsp" />
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserData.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e4069fd8-06ad-47d1-bb07-6c895f9256a4/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" />
     <entry file="file://$USER_HOME$/Desktop/暑期实训/UserinfoDataExample.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -721,48 +845,10 @@
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/adminlogin.jsp" />
     <entry file="das://table:/67c68b01/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.userinfo_" />
     <entry file="das://table:/2435156b/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.userinfo_" />
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/AdminData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/LoginData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e4069fd8-06ad-47d1-bb07-6c895f9256a4/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3663">
-          <caret line="111" column="10" lean-forward="false" selection-start-line="111" selection-start-column="10" selection-end-line="111" selection-end-column="10" />
-          <folding>
-            <marker date="1504768781109" expanded="true" signature="4704:4816" ph="select from userinfo_" />
-            <marker date="1504768781109" expanded="true" signature="4900:4966" ph="delete from " />
-            <marker date="1504768781109" expanded="true" signature="5092:5113" ph="delete from " />
-            <marker date="1504768781109" expanded="true" signature="5304:6141" ph="insert into userinfo_... " />
-            <marker date="1504768781109" expanded="true" signature="9273:9303" ph="select count... userinfo_" />
-            <marker date="1504768781109" expanded="true" signature="11657:12645" ph="update useri... " />
-            <marker date="1504768781109" expanded="true" signature="12877:14603" ph="update useri... " />
-            <marker date="1504768781109" expanded="true" signature="14723:15595" ph="update useri... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,49 +859,305 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/serviceconf/postmanconf.xml" />
+    <entry file="das://table:/b95656ec/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.usertagrelation_">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/findpassword/findpassword-0.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
-          <caret line="1299" column="1" lean-forward="false" selection-start-line="1299" selection-start-column="1" selection-end-line="1299" selection-end-column="1" />
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/findpassword/findpassword-1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginerror.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/userlogin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitattributes">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/实训2017.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/AdminData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/LoginData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="31" column="41" lean-forward="true" selection-start-line="31" selection-start-column="41" selection-end-line="31" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/microblogmodule/dao/mapper/MicroblogDataMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2002">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Login-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="15" column="7" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/serviceconf/postmanconf.xml">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        <state relative-caret-position="469">
+          <caret line="42" column="24" lean-forward="false" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/pojo/CommentData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/service/PostmanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="26" column="29" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/pojo/UserData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Register-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="75" lean-forward="true" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/RegisterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="5" column="20" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/FindPasswordService.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/FindPasswordController.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/GlobalVariable/GlobalVariable.java" />
+    <entry file="das://table:/b95656ec/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.userinfo_">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/b95656ec/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.commentinfo_">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="35" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1419">
+          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="41481">
+          <caret line="1298" column="0" lean-forward="false" selection-start-line="1298" selection-start-column="0" selection-end-line="1299" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13398">
+          <caret line="406" column="9" lean-forward="false" selection-start-line="406" selection-start-column="9" selection-end-line="406" selection-end-column="9" />
+          <folding>
+            <marker date="1504865449927" expanded="true" signature="4704:4816" ph="select from userinfo_" />
+            <marker date="1504865449927" expanded="true" signature="4900:4966" ph="delete from " />
+            <marker date="1504865449927" expanded="true" signature="5092:5113" ph="delete from " />
+            <marker date="1504865449927" expanded="true" signature="5304:6141" ph="insert into userinfo_... " />
+            <marker date="1504865449927" expanded="true" signature="9273:9303" ph="select count... userinfo_" />
+            <marker date="1504865449927" expanded="true" signature="11657:12645" ph="update useri... " />
+            <marker date="1504865449927" expanded="true" signature="12877:14603" ph="update useri... " />
+            <marker date="1504865449927" expanded="true" signature="14723:15595" ph="update useri... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/commentjsp/WriteComment.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="25" column="70" lean-forward="false" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="66" lean-forward="false" selection-start-line="10" selection-start-column="66" selection-end-line="10" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/service/PostmanService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="74" column="1" lean-forward="false" selection-start-line="74" selection-start-column="1" selection-end-line="74" selection-end-column="1" />
+        <state relative-caret-position="66">
+          <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
+          <folding>
+            <marker date="1504867076810" expanded="true" signature="5549:5670" ph="select from commentinfo_" />
+            <marker date="1504867076810" expanded="true" signature="5950:6025" ph="delete from " />
+            <marker date="1504867076810" expanded="true" signature="6357:6381" ph="delete from " />
+            <marker date="1504867076810" expanded="true" signature="6788:7410" ph="insert into commentinfo_... " />
+            <marker date="1504867076810" expanded="true" signature="10343:10376" ph="select count... commentinfo_" />
+            <marker date="1504867076810" expanded="true" signature="12666:13411" ph="update comme... " />
+            <marker date="1504867076810" expanded="true" signature="13849:15158" ph="update comme... " />
+            <marker date="1504867076810" expanded="true" signature="15484:16134" ph="update comme... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/controller/CommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImplement.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/CommentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="21" column="33" lean-forward="false" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="165">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2343">
+          <caret line="83" column="5" lean-forward="false" selection-start-line="83" selection-start-column="5" selection-end-line="83" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -827,190 +1169,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://table:/b95656ec/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.usertagrelation_">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="33" lean-forward="false" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="37" column="0" lean-forward="true" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="30" column="27" lean-forward="false" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/RegisterService.java">
+    <entry file="file://$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/implement/CommentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="5" column="36" lean-forward="false" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding />
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/findpassword/findpassword-0.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/findpassword/findpassword-1.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginerror.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1247">
-          <caret line="34" column="46" lean-forward="true" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/FindPasswordController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/service/FindPasswordService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/RegisterController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Login-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/commentjsp/comment.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="14" column="7" lean-forward="false" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/Register-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="45" column="10" lean-forward="false" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/b95656ec/e4069fd8-06ad-47d1-bb07-6c895f9256a4/jdbctest.userinfo_">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/userlogin.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="30" column="43" lean-forward="false" selection-start-line="30" selection-start-column="43" selection-end-line="30" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/microblogmodule/dao/mapper/MicroblogDataMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2211">
-          <caret line="14" column="53" lean-forward="true" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding />
         </state>
       </provider>
