@@ -17,5 +17,8 @@
     <form action="toAdmin.login">
         <input type="submit" value="管理员登录"/>
     </form>
+    <form action="to.answerComment">
+      <input type="submit" value="提问评论区"/>
+    </form>
   </body>
 </html>

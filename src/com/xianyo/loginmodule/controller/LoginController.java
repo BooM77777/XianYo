@@ -56,7 +56,7 @@ public class LoginController {
             }
         }
         //跳转至登录界面
-        mav.setViewName("loginjsp/userlogin");
+        mav.setViewName("loginjsp/login/userlogin");
         return mav;
     }
 
@@ -90,7 +90,7 @@ public class LoginController {
             passwordCookie.setPath("/");//设置作用域
             response.addCookie(passwordCookie);
         } else {
-            mav.setViewName("loginjsp/loginerror");
+            mav.setViewName("loginjsp/login/loginerror");
         }
         return mav;
     }
@@ -124,7 +124,7 @@ public class LoginController {
      * @param tmpUser 用户信息
      */
     private void ShowSuccessPage(ModelAndView mav, UserData tmpUser) {
-        mav.setViewName("loginjsp/loginsuccess");
+        mav.setViewName("loginjsp/login/loginsuccess");
         mav.addObject("usertype", "用户");
         mav.addObject("user", tmpUser);
     }

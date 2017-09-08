@@ -4,10 +4,11 @@ import com.xianyo.loginmodule.dao.mapper.UserDataExample;
 import com.xianyo.loginmodule.dao.mapper.UserDataMapper;
 import com.xianyo.loginmodule.dao.pojo.UserData;
 import com.xianyo.loginmodule.service.RegisterService;
+import com.xianyo.util.service.PostmanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
+import java.util.LongSummaryStatistics;
 import java.util.Random;
 
 @Service
@@ -15,6 +16,8 @@ public class RegisterServiceImplement implements RegisterService {
 
     @Autowired
     UserDataMapper userDataMapper;
+    @Autowired
+    PostmanService postman;
 
     /**
      * 对外的登录接口，处理用户注册的唯一接口
@@ -24,6 +27,7 @@ public class RegisterServiceImplement implements RegisterService {
      */
     public boolean Register(UserData user) {
         if (CanRegister(user)) {    //判断是否可以注册
+            postman.SendEmail(user.getEmail());
             InitUser(user);
             return true;
         }
@@ -92,9 +96,10 @@ public class RegisterServiceImplement implements RegisterService {
     private Long UserIDCreator() {
         Random randomCreator = new Random();
         UserData tampUser;
-        Long userid;
+        long userid;
         do {
             userid = randomCreator.nextLong();
+            userid = (userid > 0) ? userid : -userid;
             tampUser = userDataMapper.selectByPrimaryKey(userid);
         } while (tampUser != null);
         return userid;

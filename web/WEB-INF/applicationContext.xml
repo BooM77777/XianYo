@@ -36,4 +36,6 @@
         <property name="basePackage" value="com.xianyo.loginmodule.dao.mapper"/>
     </bean>
 
+    <bean id="postman" class="com.xianyo.util.service.PostmanService"/>
+
 </beans>
