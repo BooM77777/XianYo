@@ -7,48 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a336cf1d-b660-400e-8263-8972444a6856" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/controller/CommentController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataExample.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/pojo/CommentData.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/CommentService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/service/implement/CommentServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/WriteComment.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/controller/FindPasswordController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/service/FindPasswordService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/service/implement/LoginServiceImplement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/view/commentjsp/comment.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/controller/FindPasswordController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/service/FindPasswordService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/service/implement/LoginServiceImplement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/FindPasswordController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/FindPasswordService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/commentpart/controller/CommentController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/view/commentjsp/comment.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/classes/com/xianyo/loginmodule/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/production/实训2017/com/xianyo/loginmodule/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/AnswerComment-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/AnswerComment-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/view/loginjsp/login/loginsuccess.jsp" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/view/loginjsp/login/loginsuccess.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/2017_war_exploded/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataExample.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/dao/mapper/UserDataMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/view/loginjsp/login/loginsuccess.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/MybatisFile/xml/CommentDataMapper.xml" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImplement.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/LoginServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImplement.java" afterPath="$PROJECT_DIR$/src/com/xianyo/loginmodule/service/implement/RegisterServiceImpl.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/com/xianyo/questionmodule/answercomponent/answerpart/dao/mapper/CommentDataMapper.java" afterPath="$PROJECT_DIR$/src/com/xianyo/util/commentmodule/dao/mapper/CommentDataMapper.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/Register-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/AnswerComment-servlet.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,8 +43,8 @@
       <file leaf-file-name="ApplicationContext.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="-330">
+              <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -736,12 +695,12 @@
       <workItem from="1504863861639" duration="65000" />
       <workItem from="1504864309254" duration="1791000" />
       <workItem from="1504866212650" duration="1025000" />
-      <workItem from="1504867494390" duration="35000" />
+      <workItem from="1504867494390" duration="757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78261000" />
+    <option name="totallyTimeSpent" value="78983000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1181,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/ApplicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        <state relative-caret-position="-330">
+          <caret line="11" column="59" lean-forward="false" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding />
         </state>
       </provider>
