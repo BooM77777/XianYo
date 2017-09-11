@@ -10,7 +10,11 @@
     <context:annotation-config/>
     <!--扫描注册模块服务所在的包-->
     <context:component-scan base-package="com.xianyo.loginmodule.service,
-                                          com.xianyo.util.commentmodule.service"/>
+                                          com.xianyo.questionmodule.questioncomponent.questionpart.service,
+                                          com.xianyo.questionmodule.questioncomponent.commentpart.service,
+                                          com.xianyo.util.scenic.service,
+                                          com.xianyo.util.IDGenerator.service
+                                          com.xianyo.util.relation.scenictoquestion.service"/>
 
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -31,21 +35,31 @@
     <bean id="SqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="typeAliasesPackage"
                 value="com.xianyo.loginmodule.dao.pojo,
-                       com.xianyo.util.commentmodule.dao.pojo"/>
+                       com.xianyo.questionmodule.questioncomponent.questionpart.dao.pojo,
+                       com.xianyo.questionmodule.questioncomponent.commentpart.dao.pojo,
+                       com.xianyo.util.scenic.dao.pojo,
+                       com.xianyo.util.relation.scenictoquestion.dao.pojo"/>
+
         <property name="dataSource" ref="dataSource"/>
 
         <property name="mapperLocations">
             <list>
                 <value>classpath:com/xianyo/loginmodule/dao/mapper/*.xml</value>
-                <value>classpath:com/xianyo/util/commentmodule/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/questionmodule/questioncomponent/questionpart/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/questionmodule/questioncomponent/commentpart/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/util/scenic/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/util/relation/scenictoquestion/dao/mapper/*.xml</value>
             </list>
         </property>
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.xianyo.loginmodule.dao.mapper,
-                                            com.xianyo.util.commentmodule.dao.mapper"/>
+                                            com.xianyo.questionmodule.questioncomponent.questionpart.dao.mapper,
+                                            com.xianyo.questionmodule.questioncomponent.commentpart.dao.mapper,
+                                            com.xianyo.util.scenic.dao.mapper,
+                                            com.xianyo.util.relation.scenictoquestion.dao.mapper"/>
     </bean>
 
-    <bean id="postman" class="com.xianyo.util.service.PostmanService"/>
+    <bean id="postman" class="com.xianyo.util.PostmanService"/>
 </beans>

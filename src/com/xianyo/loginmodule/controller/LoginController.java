@@ -30,7 +30,7 @@ public class LoginController {
      * @return 返回跳转的目标地址
      */
     @RequestMapping("/toUser.login")
-    public ModelAndView JumpToUserLogin(HttpServletRequest request,HttpSession session) {
+    public ModelAndView JumpToUserLogin(HttpServletRequest request, HttpSession session) {
         Cookie[] cookies = request.getCookies();
         ModelAndView mav = new ModelAndView();
         if (cookies != null) {
@@ -46,8 +46,6 @@ public class LoginController {
             // 如果完整就进行登陆操作
             if (tmpLoginData.getUsername() != null && tmpLoginData.getPassword() != null) {
                 UserData tmpUser = loginService.Login(tmpLoginData);
-                System.out.println(tmpUser == null);
-
                 if (tmpUser != null) {
                     //跳转至登陆成功界面
                     ShowSuccessPage(mav, tmpUser, session);
@@ -56,7 +54,7 @@ public class LoginController {
             }
         }
         //跳转至登录界面
-        mav.setViewName("loginjsp/login/userlogin");
+        mav.setViewName("login/login/userlogin");
         return mav;
     }
 
@@ -75,7 +73,7 @@ public class LoginController {
         UserData tmpUser = loginService.Login(user);
         if (tmpUser != null) {
             //跳转至登陆成功界面
-            ShowSuccessPage(mav, tmpUser,session);
+            ShowSuccessPage(mav, tmpUser, session);
             //创建cookie并写入response
             //将用户名和密码保存在cookie中传出
             //使用cookie的便利也放置手机和邮箱的泄露
@@ -88,7 +86,7 @@ public class LoginController {
             passwordCookie.setPath("/");//设置作用域
             response.addCookie(passwordCookie);
         } else {
-            mav.setViewName("loginjsp/login/loginerror");
+            mav.setViewName("login/login/loginerror");
         }
         return mav;
     }
@@ -100,7 +98,7 @@ public class LoginController {
      */
     @RequestMapping("/toAdmin.login")
     public ModelAndView JumpToAdminLogin() {
-        ModelAndView mav = new ModelAndView("loginjsp/adminlogin");
+        ModelAndView mav = new ModelAndView("login/adminlogin");
         return mav;
     }
 
@@ -121,9 +119,9 @@ public class LoginController {
      * @param mav     ModelAndView
      * @param tmpUser 用户信息
      */
-    private void ShowSuccessPage(ModelAndView mav, UserData tmpUser,HttpSession session) {
-        mav.setViewName("loginjsp/login/loginsuccess");
-        session.setAttribute("User",tmpUser);
+    private void ShowSuccessPage(ModelAndView mav, UserData tmpUser, HttpSession session) {
+        mav.setViewName("MainPage");
+        session.setAttribute("User", tmpUser);
         mav.addObject("usertype", "用户");
         mav.addObject("user", tmpUser);
     }

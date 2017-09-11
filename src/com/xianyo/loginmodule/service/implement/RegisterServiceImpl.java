@@ -4,7 +4,7 @@ import com.xianyo.loginmodule.dao.mapper.UserDataExample;
 import com.xianyo.loginmodule.dao.mapper.UserDataMapper;
 import com.xianyo.loginmodule.dao.pojo.UserData;
 import com.xianyo.loginmodule.service.RegisterService;
-import com.xianyo.util.service.PostmanService;
+import com.xianyo.util.PostmanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
