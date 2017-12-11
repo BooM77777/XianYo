@@ -15,7 +15,7 @@ public interface UserDataMapper {
     int insert(UserData record);
 
     int insertSelective(UserData record);
-
+    List<UserData> selectAll();
     List<UserData> selectByExample(UserDataExample example);
 
     UserData selectByPrimaryKey(Long userid);

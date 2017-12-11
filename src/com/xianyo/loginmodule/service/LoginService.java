@@ -5,4 +5,5 @@ import com.xianyo.loginmodule.dao.pojo.UserData;
 
 public interface LoginService {
     UserData Login(LoginData userdata);
+
 }

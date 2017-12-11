@@ -83,6 +83,10 @@
     fansNumber, concernNumber, microblogNumber, answerNumber, questionNumber, newAnswers, 
     selfIntroduce, indexUrl, islogin
   </sql>
+  <select id="selectAll" resultMap="BaseResultMap"
+          parameterType="com.xianyo.loginmodule.dao.mapper.UserDataExample" >
+    SELECT * FROM userinfo_
+  </select>
   <select id="selectByExample" resultMap="BaseResultMap"
           parameterType="com.xianyo.loginmodule.dao.mapper.UserDataExample" >
     select

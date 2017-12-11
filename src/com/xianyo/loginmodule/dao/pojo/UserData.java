@@ -35,6 +35,16 @@ public class UserData {
 
     private Boolean islogin;
 
+    private boolean sessionflag;
+
+    public boolean isSessionflag() {
+        return sessionflag;
+    }
+
+    public void setSessionflag(boolean sessionflag) {
+        this.sessionflag = sessionflag;
+    }
+
     public void init() {
         fansnumber = 0;
         concernnumber = 0;
@@ -179,5 +189,28 @@ public class UserData {
 
     public void setIslogin(Boolean islogin) {
         this.islogin = islogin;
+    }
+
+    @Override
+    public String toString() {
+        return "UserData{" +
+                "userid=" + userid +
+                ", username='" + username + '\'' +
+                ", password='" + password + '\'' +
+                ", phonenumber='" + phonenumber + '\'' +
+                ", email='" + email + '\'' +
+                ", sex='" + sex + '\'' +
+                ", allowgetlocation=" + allowgetlocation +
+                ", headshot='" + headshot + '\'' +
+                ", fansnumber=" + fansnumber +
+                ", concernnumber=" + concernnumber +
+                ", microblognumber=" + microblognumber +
+                ", answernumber=" + answernumber +
+                ", questionnumber=" + questionnumber +
+                ", newanswers=" + newanswers +
+                ", selfintroduce='" + selfintroduce + '\'' +
+                ", indexurl='" + indexurl + '\'' +
+                ", islogin=" + islogin +
+                '}';
     }
 }

@@ -16,8 +16,7 @@ import java.util.regex.Pattern;
  * 实现用户登录的操作
  */
 @Service
-public class LoginServiceImpl
-        implements LoginService {
+public class LoginServiceImpl implements LoginService {
     @Autowired
     UserDataMapper userDataMapper;
 
@@ -38,19 +37,17 @@ public class LoginServiceImpl
         //判断是否可能是一个邮箱地址
         // 如果是，使用邮箱地址判断能否登录
         // 否则跳过判断
-        if (CanBeEmailAddress(user.getUsername())) {
-            tempData = FindByEmailAdress(example, user.getUsername(), user.getPassword());
-            if (tempData != null)
-                return tempData;
-        }
+//        if (CanBeEmailAddress(user.getUsername())) { }
+        tempData = FindByEmailAdress(example, user.getUsername(), user.getPassword());
+        if (tempData != null)
+            return tempData;
         //判断是否可能是一个手机号码
         // 如果是，使用手机号码判断能否登录
         // 否则跳过判断
-        if (CanBePhonenumber(user.getUsername())) {
-            tempData = FindByPhonenumber(example, user.getUsername(), user.getPassword());
-            if (tempData != null)
-                return tempData;
-        }
+//        if (CanBePhonenumber(user.getUsername())) { }
+        tempData = FindByPhonenumber(example, user.getUsername(), user.getPassword());
+        if (tempData != null)
+            return tempData;
         //使用用户名判断能否登录
         tempData = FindByUsername(example, user.getUsername(), user.getPassword());
         return tempData;
@@ -135,42 +132,42 @@ public class LoginServiceImpl
             return null;
     }
 
-    /**
-     * 判断是否可能为邮箱地址
-     * 使用*@*的正则表达式匹配
-     *
-     * @param email
-     * @return
-     */
-    private boolean CanBeEmailAddress(String email) {
-        // 邮箱验证规则
-        String regEx =
-                "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]" +
-                        "@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
-        // 编译正则表达式
-        // 忽略大小写
-        Pattern pat = Pattern.compile(regEx, Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pat.matcher(email);
-        // 字符串是否与正则表达式相匹配
-        return matcher.matches();
-    }
-
-    /**
-     * 判断是否是一个电话号码
-     *
-     * @param phonenumber 传入的字符串
-     * @return 如果为电话号码返回true
-     * 如果不为电话号码返回false
-     */
-    private boolean CanBePhonenumber(String phonenumber) {
-        // 邮箱验证规则
-        String regEx =
-                "^((17[0-9])|(14[0-9])|(13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$";
-        // 编译正则表达式
-        // 忽略大小写
-        Pattern pat = Pattern.compile(regEx, Pattern.CASE_INSENSITIVE);
-        Matcher matcher = pat.matcher(phonenumber);
-        // 字符串是否与正则表达式相匹配
-        return matcher.matches();
-    }
+//    /**
+//     * 判断是否可能为邮箱地址
+//     * 使用*@*的正则表达式匹配
+//     *
+//     * @param email
+//     * @return
+//     */
+//    private boolean CanBeEmailAddress(String email) {
+//        // 邮箱验证规则
+//        String regEx =
+//                "^([a-z0-9A-Z]+[-|\\.]?)+[a-z0-9A-Z]" +
+//                        "@([a-z0-9A-Z]+(-[a-z0-9A-Z]+)?\\.)+[a-zA-Z]{2,}$";
+//        // 编译正则表达式
+//        // 忽略大小写
+//        Pattern pat = Pattern.compile(regEx, Pattern.CASE_INSENSITIVE);
+//        Matcher matcher = pat.matcher(email);
+//        // 字符串是否与正则表达式相匹配
+//        return matcher.matches();
+//    }
+//
+//    /**
+//     * 判断是否是一个电话号码
+//     *
+//     * @param phonenumber 传入的字符串
+//     * @return 如果为电话号码返回true
+//     * 如果不为电话号码返回false
+//     */
+//    private boolean CanBePhonenumber(String phonenumber) {
+//        // 邮箱验证规则
+//        String regEx =
+//                "^((17[0-9])|(14[0-9])|(13[0-9])|(15[^4,\\D])|(18[0,5-9]))\\d{8}$";
+//        // 编译正则表达式
+//        // 忽略大小写
+//        Pattern pat = Pattern.compile(regEx, Pattern.CASE_INSENSITIVE);
+//        Matcher matcher = pat.matcher(phonenumber);
+//        // 字符串是否与正则表达式相匹配
+//        return matcher.matches();
+//    }
 }

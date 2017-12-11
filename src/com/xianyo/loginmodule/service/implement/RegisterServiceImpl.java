@@ -4,6 +4,7 @@ import com.xianyo.loginmodule.dao.mapper.UserDataExample;
 import com.xianyo.loginmodule.dao.mapper.UserDataMapper;
 import com.xianyo.loginmodule.dao.pojo.UserData;
 import com.xianyo.loginmodule.service.RegisterService;
+import com.xianyo.util.service.IDGeneratorService;
 import com.xianyo.util.service.PostmanService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -17,6 +18,8 @@ public class RegisterServiceImpl implements RegisterService {
     UserDataMapper userDataMapper;
     @Autowired
     PostmanService postman;
+    @Autowired
+    IDGeneratorService idGeneratorService;
 
     /**
      * 对外的登录接口，处理用户注册的唯一接口
@@ -33,6 +36,47 @@ public class RegisterServiceImpl implements RegisterService {
         return false;
     }
 
+    @Override
+    public boolean CheckUsername(String username) {
+        List<UserData> users;
+        UserDataExample example = new UserDataExample();
+        UserDataExample.Criteria criteria = example.createCriteria();
+        example.setDistinct(false);
+        criteria.andUsernameEqualTo(username);
+        users = userDataMapper.selectByExample(example);
+        if (users.size()==0||users==null){
+            return true;
+        }else
+            return false;
+    }
+    @Override
+    public boolean CheckPhoneNumber(String phonenumber) {
+        List<UserData> users;
+        UserDataExample example = new UserDataExample();
+        UserDataExample.Criteria criteria = example.createCriteria();
+        example.setDistinct(false);
+        criteria.andPhonenumberEqualTo(phonenumber);
+        users = userDataMapper.selectByExample(example);
+        if (users.size()==0||users==null){
+            return true;// available
+        }else
+            return false;
+    }
+    @Override
+    public boolean CheckEmail(String email) {
+        List<UserData> users;
+        UserDataExample example = new UserDataExample();
+        UserDataExample.Criteria criteria = example.createCriteria();
+        example.setDistinct(false);
+        criteria.andEmailEqualTo(email);
+        users = userDataMapper.selectByExample(example);
+        if (users.size()==0||users==null){
+            return true;
+        }else
+            return false;
+    }
+
+
     /**
             * 判断用户是否已被注册
      *
@@ -41,40 +85,12 @@ public class RegisterServiceImpl implements RegisterService {
      * 如果未被注册返回true
      */
     private boolean CanRegister(UserData user) {
-        List<UserData> users;
-        UserDataExample example = new UserDataExample();
-
-        UserDataExample.Criteria criteria;
-        //判断用户名是否被注册
-        example.setDistinct(true); //重复查询 = example.createCriteria();//构造自定义查询条件
-        criteria = example.createCriteria();
-        criteria.andUsernameEqualTo(user.getUsername());
-        users = userDataMapper.selectByExample(example);
-        if (users.size() == 0) {
-            //如果用户名没有被注册
-            //判断邮箱是否被注册
-            users.clear();
-            example.clear();
-            example.setDistinct(true);//重复查询
-            criteria = example.createCriteria();//构造自定义查询条件
-            criteria.andEmailEqualTo(user.getEmail());
-            users = userDataMapper.selectByExample(example);
-            if (users.size() == 0) {
-                //如果邮箱没有被注册
-                //判断手机号是否被注册
-                users.clear();
-                example.clear();
-
-                example.setDistinct(true);//重复查询
-                criteria = example.createCriteria();//构造自定义查询条件
-                criteria.andPhonenumberEqualTo(user.getPhonenumber());
-                users = userDataMapper.selectByExample(example);
-                if (users.size() == 0) {
-                    return true;
-                }
-            }
-        }
-        return false;
+        if (CheckEmail(user.getEmail())
+                &&CheckPhoneNumber(user.getPhonenumber())
+                &&CheckUsername(user.getUsername()))
+            return true;
+        else
+            return false;
     }
 
     /**
@@ -93,11 +109,11 @@ public class RegisterServiceImpl implements RegisterService {
      * 生成UserID
      */
     private Long UserIDCreator() {
-        Random randomCreator = new Random();
+        Long randomCreator = idGeneratorService.genetatorForOthers(1);
         UserData tampUser;
         long userid;
         do {
-            userid = randomCreator.nextLong();
+            userid = randomCreator;
             userid = (userid > 0) ? userid : -userid;
             tampUser = userDataMapper.selectByPrimaryKey(userid);
         } while (tampUser != null);

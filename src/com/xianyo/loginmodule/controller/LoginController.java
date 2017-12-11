@@ -6,7 +6,7 @@ import com.xianyo.loginmodule.dao.pojo.UserData;
 import com.xianyo.loginmodule.service.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.Cookie;
@@ -22,6 +22,8 @@ public class LoginController {
 
     @Autowired
     LoginService loginService;
+
+    public String message = "";
 
     /**
      * 跳转至用户登录界面
@@ -66,7 +68,7 @@ public class LoginController {
      * @param user 传入的的用户信息
      * @return 返回模型和视图
      */
-    @RequestMapping("/user.login")
+    @RequestMapping(value = "/user.login",method = RequestMethod.POST)
     public ModelAndView UserLogin(LoginData user,
                                   HttpSession session,
                                   HttpServletResponse response) throws Exception {
@@ -74,27 +76,37 @@ public class LoginController {
         user.setAdmin(false);
         UserData tmpUser = loginService.Login(user);
         if (tmpUser != null) {
-            //跳转至登陆成功界面
-            ShowSuccessPage(mav, tmpUser,session);
-            //创建cookie并写入response
-            //将用户名和密码保存在cookie中传出
-            //使用cookie的便利也放置手机和邮箱的泄露
-            Cookie usernameCookie = new Cookie("username", tmpUser.getUsername());
-            usernameCookie.setMaxAge(7 * 24 * 3600);
-            usernameCookie.setPath("/");//设置作用域
-            response.addCookie(usernameCookie);
-            Cookie passwordCookie = new Cookie("password", tmpUser.getPassword());
-            passwordCookie.setMaxAge(7 * 24 * 3600);
-            passwordCookie.setPath("/");//设置作用域
-            response.addCookie(passwordCookie);
+            if (user.isSessionflag()){
+                //创建cookie并写入response
+                //将用户名和密码保存在cookie中传出
+                //使用cookie的便利也放置手机和邮箱的泄露
+                Cookie usernameCookie = new Cookie("username", tmpUser.getUsername());
+                usernameCookie.setMaxAge(7 * 24 * 3600);
+                usernameCookie.setPath("/");//设置作用域
+                response.addCookie(usernameCookie);
+                Cookie passwordCookie = new Cookie("password", tmpUser.getPassword());
+                passwordCookie.setMaxAge(7 * 24 * 3600);
+                passwordCookie.setPath("/");//设置作用域
+                response.addCookie(passwordCookie);
+                message = "登陆成功,下次自动登陆";
+            }else{
+                //跳转至登陆成功界面
+//                ShowSuccessPage(mav, tmpUser,session);
+                session.setAttribute("User",tmpUser);
+
+                //message = "登陆成功,下次还得手动登陆哈哈哈哈哈啊哈";
+                mav.addObject(message,"success");
+            }
         } else {
-            mav.setViewName("loginjsp/login/loginerror");
+           // message = "登陆失败";
+            mav.addObject(message,"error");
         }
+        mav.setViewName("redirect:/toUser.login");
         return mav;
     }
 
     /**
-     * 跳转至用户登录界面
+     * 跳转至管理员登录界面
      *
      * @return 返回跳转的目标地址
      */
@@ -122,9 +134,10 @@ public class LoginController {
      * @param tmpUser 用户信息
      */
     private void ShowSuccessPage(ModelAndView mav, UserData tmpUser,HttpSession session) {
-        mav.setViewName("loginjsp/login/loginsuccess");
+        mav.setViewName("loginjsp/login/userlogin");
         session.setAttribute("User",tmpUser);
         mav.addObject("usertype", "用户");
         mav.addObject("user", tmpUser);
+        mav.addObject("loginMessage", message);
     }
 }

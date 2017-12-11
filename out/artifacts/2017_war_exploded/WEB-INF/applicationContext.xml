@@ -10,7 +10,12 @@
     <context:annotation-config/>
     <!--扫描注册模块服务所在的包-->
     <context:component-scan base-package="com.xianyo.loginmodule.service,
-                                          com.xianyo.util.commentmodule.service"/>
+                                          com.xianyo.util.commentmodule.service,
+                                          com.xianyo.microblogmodule.service,
+                                          com.xianyo.util.service,
+                                          com.xianyo.feedbackmodule.service,
+                                          com.xianyo.util.reportmodule.service,
+                                          com.xianyo.util.scenicmodule.service"/>
 
     <bean id="dataSource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -18,33 +23,45 @@
             <value>com.mysql.jdbc.Driver</value>
         </property>
         <property name="url">
-            <value>jdbc:mysql://localhost:3306/jdbctest?characterEncoding=UTF-8</value>
+            <value>jdbc:mysql://localhost:3306/project?characterEncoding=UTF-8</value>
         </property>
         <property name="username">
             <value>root</value>
         </property>
         <property name="password">
-            <value>123456</value>
+            <value>156.luobo</value>
         </property>
     </bean>
 
     <bean id="SqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="typeAliasesPackage"
                 value="com.xianyo.loginmodule.dao.pojo,
-                       com.xianyo.util.commentmodule.dao.pojo"/>
+                             com.xianyo.util.commentmodule.dao.pojo
+                             com.xianyo.microblogmodule.dao.pojo,
+                             com.xianyo.feedbackmodule.dao.pojo,
+                             com.xianyo.util.reportmodule.dao.pojo,
+                             com.xianyo.util.scenicmodule.dao.pojo"/>
         <property name="dataSource" ref="dataSource"/>
 
         <property name="mapperLocations">
             <list>
                 <value>classpath:com/xianyo/loginmodule/dao/mapper/*.xml</value>
                 <value>classpath:com/xianyo/util/commentmodule/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/microblogmodule/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/feedbackmodule/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/util/reportmodule/dao/mapper/*.xml</value>
+                <value>classpath:com/xianyo/util/scenicmodule/dao/mapper/*.xml</value>
             </list>
         </property>
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.xianyo.loginmodule.dao.mapper,
-                                            com.xianyo.util.commentmodule.dao.mapper"/>
+                                            com.xianyo.util.commentmodule.dao.mapper,
+                                            com.xianyo.microblogmodule.dao.mapper,
+                                            com.xianyo.feedbackmodule.dao.mapper,
+                                            com.xianyo.util.reportmodule.dao.mapper,
+                                            com.xianyo.util.scenicmodule.dao.mapper"/>
     </bean>
 
     <bean id="postman" class="com.xianyo.util.service.PostmanService"/>

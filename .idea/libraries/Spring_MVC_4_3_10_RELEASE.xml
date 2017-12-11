@@ -6,12 +6,10 @@
       <root url="jar://$PROJECT_DIR$/lib/spring-websocket-4.3.10.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-web-4.3.10.RELEASE.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.10.RELEASE.jar!/" />
-      <root url="file://E:/apache-tomcat-8.5.20/lib" />
       <root url="file://$PROJECT_DIR$/lib" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
-    <jarDirectory url="file://E:/apache-tomcat-8.5.20/lib" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/lib" recursive="false" />
   </library>
 </component>

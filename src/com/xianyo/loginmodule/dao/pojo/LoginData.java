@@ -8,6 +8,15 @@ public class LoginData {
     private String username;
     private String password;
     private boolean isAdmin;
+    private boolean sessionflag;
+
+    public boolean isSessionflag() {
+        return sessionflag;
+    }
+
+    public void setSessionflag(boolean sessionflag) {
+        this.sessionflag = sessionflag;
+    }
 
     public String getUsername() {
         return username;
